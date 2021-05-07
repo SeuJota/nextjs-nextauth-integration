@@ -1,0 +1,16 @@
+@import "./mixins/flexbox.mixins.less";
+
+body {
+  background-color: #F5F5F5;
+  height: 100vh;
+  width: 100%;
+
+  .flex;
+  .flex-align-items(center);
+  .flex-justify(center);
+
+  // change __next div
+  &>div{
+    width: 100%;
+  }
+}
